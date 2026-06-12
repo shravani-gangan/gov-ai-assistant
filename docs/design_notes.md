@@ -1,8 +1,6 @@
 # Design Notes — Government AI Multi-Agent Assistant
 
-**Version:** 1.0.0  
-**Author:** Technical Implementation  
-**Date:** June 2026
+
 
 ---
 
