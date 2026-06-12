@@ -158,11 +158,11 @@ class GRAnalyzerTool(BaseTool):
             issuing_authority=parsed.get("issuing_authority") or (authorities[0] if authorities else None),
             issue_date=parsed.get("issue_date") or (dates[0] if dates else None),
             reference_number=parsed.get("reference_number") or ref_number,
-            clauses=clauses,
-            key_obligations=parsed.get("key_obligations", []),
-            deadlines=parsed.get("deadlines", []),
-            applicability=parsed.get("applicability", []),
-            ambiguities_detected=parsed.get("ambiguities", []),
+            clauses=parsed.get("clauses") or [],
+            key_obligations=parsed.get("key_obligations") or [],
+            deadlines=parsed.get("deadlines") or [],
+            applicability=parsed.get("applicability") or [],
+            ambiguities_detected=parsed.get("ambiguities") or [],
             raw_text_hash=doc_hash,
         )
 
