@@ -1,0 +1,13 @@
+﻿__pycache__/
+*.py[cod]
+venv/
+.env
+data/
+*.gguf
+demo_output.json
+api_test_output.json
+.pytest_cache/
+.coverage
+*.log
+.vscode/settings.json
+.idea/
